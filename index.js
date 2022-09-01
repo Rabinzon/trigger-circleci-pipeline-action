@@ -34,12 +34,12 @@ const getTag = () => {
 
 const headers = {
   "content-type": "application/json",
-  "x-attribution-login": context.actor,
-  "x-attribution-actor-id": context.actor,
+  "x-attribution-login": "koshkarik",
+  "x-attribution-actor-id": "koshkarik",
   "Circle-Token": `${process.env.CCI_TOKEN}`,
 };
 const parameters = {
-  GHA_Actor: process.env.GITHUB_ACTOR,
+  GHA_Actor: "koshkarik",
   GHA_Action: context.action,
   GHA_Event: context.eventName,
 };
