@@ -12726,12 +12726,12 @@ const getTag = () => {
 
 const headers = {
   "content-type": "application/json",
-  "x-attribution-login": "koshkarik",
-  "x-attribution-actor-id": "koshkarik",
+  "x-attribution-login": "neemah",
+  "x-attribution-actor-id": "neemah",
   "Circle-Token": `${process.env.CCI_TOKEN}`,
 };
 const parameters = {
-  GHA_Actor: "koshkarik",
+  GHA_Actor: "neemah",
   GHA_Action: _actions_github__WEBPACK_IMPORTED_MODULE_1__.context.action,
   GHA_Event: _actions_github__WEBPACK_IMPORTED_MODULE_1__.context.eventName,
 };
